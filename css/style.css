@@ -20,7 +20,7 @@ h6 {
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #fbaf32;
+    color: #e9ecef;
     transition: .3s;
 }
 
@@ -1850,7 +1850,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
-    color: #fbaf32;
+    color:lightblue;
 }
 
 .footer .footer-contact h2::after,
@@ -1878,7 +1878,7 @@ a:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color: #fbaf32;
+    color:lightblue;
 }
 
 .footer .footer-link a:hover {
@@ -1888,7 +1888,7 @@ a:focus {
 
 .footer .footer-contact p i {
     width: 25px;
-    color: #fbaf32;
+    color:lightblue;
 }
 
 .footer .footer-social {
@@ -1905,7 +1905,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background:lightblue;
     border-radius: 35px;
     font-size: 16px;
     color: #ffffff;
@@ -1927,7 +1927,7 @@ a:focus {
 .footer .footer-newsletter input {
     height: 60px;
     background: transparent;
-    border: 1px solid #fbaf32;
+    border: 1px solid lightblue;
     border-radius: 5px;
 }
 
@@ -1956,7 +1956,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #fbaf32;
+    color: lightblue
 }
 
 .footer .copyright p a:hover {
@@ -1966,8 +1966,8 @@ a:focus {
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
-/* ////////////////////////// Abhinav  Start Metal producr css /////////////// */
-.metal{
+/* ////////////////////////// Abhinav  Start Metal product css /////////////// */
+/* .metal{
     box-sizing: border-box;
     position: relative;
 }
@@ -1985,13 +1985,127 @@ margin-left: 30px;
     margin-left: 30px;
     margin-right: 30px;
     text-align: justify;
+} */
+
+
+/* ///////////////////////NEW HEADER Abhinav //////////////// */
+ .new-page-header{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 200px 0 90px 0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/metal-page-header.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.container-1{
+    width: 100%;
+    padding-right: auto;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+.row1{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:15px;
+    margin-left: 15px;
+}
+.new-col-12{
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    flex:0 0 100%;
+    flex-grow: 0;
+    flex-basis: 100%;
+}
+.h-2-metal{
+    text-align: center;
+    color:#117a8b;
+}
+.home{
+    color:#117a8b;
+}
+
+
+                             /* ***************************************************************
+                             **************************Start Floating image *******************
+                             *****************************************************************/
+.metal-container
+{
+    max-width: 1200px;
+    margin: 30px auto 30px;
+}
+.container-container
+{
+    max-width: 1000px;
+    text-align: justify;
+}
+.container-container .image-repository
+{
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+#left
+{
+   float:left;
+   margin-right: 30px;
+   margin-bottom: 10px;
+}
+
+.bottom{
+    margin-bottom: 100px;
+}
+.H{
+    color: #117a8b;
+    font-size: 25px;
+    font-family: Nunito', sans-serif;
+}
+
+#right{
+    max-width: 400px;
+    margin-top:10px;
+    float: left;
+    margin-right:30px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.bottom1
+{
+    max-width:1000px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+                            /* ***************************************************************
+                             **************************End Floating image *******************
+                             *****************************************************************/
+
+/* ///////////////////////End new header ////////////////// */
+
+
+
+
+
+
 
 
 /* ////////////////////////// kushwaha End Metal producr css /////////////// */
 
 
-.heavy-container{
+/* .heavy-container{
     max-width: 100%;
     margin-top: 30px auto 20px;
 
@@ -2036,5 +2150,5 @@ margin-left: 30px;
 .light-container .floating-image{
     max-width: 400px;
     margin-top:-0px;
-    vertical-align:middle;
+    vertical-align:middle; */
 }
