@@ -2035,53 +2035,140 @@ margin-left: 30px;
                              /* ***************************************************************
                              **************************Start Floating image *******************
                              *****************************************************************/
-.metal-container
+
+ .metal-metal
 {
-    max-width: 1200px;
-    margin: 30px auto 30px;
-}
-.container-container
-{
-    max-width: 1000px;
+    display: flex;
+    min-height: 100vh;
     text-align: justify;
+    max-width: 1000px; 
+    margin: 30px auto 30px; 
+    
 }
-.container-container .image-repository
+
+.image-repository 
 {
-    max-width: 400px;
-    margin-top: 10px;
+max-width: 400px;
+margin-right:px;
+
 }
 
 #left
 {
-   float:left;
-   margin-right: 30px;
-   margin-bottom: 10px;
+float:right;
+margin-left: 30px;
+margin-top: ;
+margin-bottom: ;
 }
 
-.bottom{
-    margin-bottom: 100px;
+#right
+{ float:left;
+  margin-right:30px ;
+
 }
+
+.container-container
+{
+    margin-bottom:100px;  
+    background: #f2f2f2;
+}
+
+.metal-metal-1
+{
+    display: flex;
+    min-height: 100vh;
+    text-align: justify;
+    max-width:1000px;
+    margin: 30px auto 30px; 
+}
+
+#image-width
+{
+    max-width: 400px;
+    
+}
+.container
+{
+    max-width:1000px;
+    margin: auto;
+    background: #f2f2f2;
+    
+    margin-top: -500px;
+
+}
+
+/* } */ 
+/* .metal-container
+{   max-width:900px ;
+    margin:30px ;
+} */
+    
+/* .metal-container
+{   max-width: 900px;
+    margin: 30px auto 30px;
+} */
+/* .container-container
+{
+    max-width: 1200px;
+    text-align: justify;
+
+} */
+/* .container-container .image-repository
+{
+    max-width:400px;
+    margin-top: 10px;
+} */
+/* 
+#left
+{  padding-right:px;
+   float:right;
+   margin-left: 30px;
+   margin-bottom:none;
+} */
+
+
 .H{
     color: #117a8b;
     font-size: 25px;
     font-family: Nunito', sans-serif;
 }
-
-#right{
-    max-width: 400px;
-    margin-top:10px;
-    float: left;
-    margin-right:30px;
-    margin-bottom: 20px;
-    
-    
-}
-
-.bottom1
+/* 
+#aluminium
 {
-    max-width:1000px;
-    text-align: justify;
+    color: #454545;
+    font-size: 20px;
+    font-style: normal;
+} */
+.a{
+    color: #117a8b;
 }
+
+.ferrous
+{
+    color: #117a8b;
+    font-size: 34px;
+}
+/* .img-content
+{
+    margin-top:0px;
+} */
+
+/* #right{
+
+    float: left;
+    max-width: 400px;
+    margin-top:0px;
+    margin-right:30px;
+    margin-bottom: 0px;
+    
+    
+} */
+
+/* .bottom1
+{
+    max-width:1200px;
+    text-align: justify;
+} */
 
 
 
