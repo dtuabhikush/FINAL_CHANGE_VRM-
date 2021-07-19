@@ -20,7 +20,7 @@ h6 {
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #fbaf32;
+    color: #e9ecef;
     transition: .3s;
 }
 
@@ -138,8 +138,8 @@ a:focus {
 .navbar .dropdown-menu {
     margin-top: 0;
     border: 0;
-    border-radius: 0;
-    background: #f8f9fa;
+    border: radius 2px;
+    background:#f8f9fa;
 }
 
 @media (min-width: 992px) {
@@ -367,7 +367,7 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     padding: 150px 0 90px 0;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
@@ -378,9 +378,9 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #fbaf32;
+    color: #117a8b;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .page-header a {
@@ -426,14 +426,14 @@ a:focus {
 /*******************************/
 .section-header {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 0px;
 }
 
 .section-header p {
-    color: #719a0a;
+    color: #117a8b;
     margin-bottom: 5px;
     position: relative;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .section-header h2 {
@@ -441,12 +441,14 @@ a:focus {
     position: relative;
     font-size: 45px;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 991.98px) {
     .section-header h2 {
         font-size: 40px;
         font-weight: 600;
+        margin-bottom:30px;
     }
 }
 
@@ -1195,17 +1197,17 @@ a:focus {
 /*******************************/
 /*********** Blog CSS **********/
 /*******************************/
-.blog {
+.metal {
     position: relative;
     width: 100%;
-    padding: 45px 0 0 0;
+    padding:0px 0 0 0;
 }
 
-.blog .blog-item {
+.metal .metal-item {
     position: relative;
 }
 
-.blog .blog-img {
+.metal .metal-img {
     position: relative;
     width: 100%;
     border-radius: 15px;
@@ -1213,11 +1215,8 @@ a:focus {
     z-index: 1;
 }
 
-.blog .blog-img img {
-    width: 100%;
-}
 
-.blog .blog-content {
+.metal .metal-content {
     position: relative;
     width: calc(100% - 60px);
     top: -60px;
@@ -1229,25 +1228,25 @@ a:focus {
     z-index: 2;
 }
 
-.blog .blog-content h2.blog-title {
+.metal .metal-content h2.metal-title {
     font-size: 22px;
     font-weight: 700;
 }
 
-.blog .blog-meta {
+.metal .metal-meta {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
 }
 
-.blog .blog-meta p {
+.metal.metal-meta p {
     margin: 0 10px 0 0;
     font-size: 14px;
     color: #999999;
 }
 
-.blog .blog-meta i {
+.metal .metal-meta i {
     color: #fbaf32;
     margin-right: 5px;
 }
@@ -1256,38 +1255,38 @@ a:focus {
     margin: 0;
 }
 
-.blog .blog-text {
+.metal .metal-text {
     position: relative;
 }
 
-.blog .blog-text p {
+.metal .metal-text p {
     margin-bottom: 10px;
 }
 
-.blog .blog-item a.btn {
+.metal .metal-item a.btn {
     margin-top: 10px;
     padding: 5px 15px;
 }
 
-.blog .pagination .page-link {
+.metal .pagination .page-link {
     color: #fbaf32;
     border-radius: 5px;
     border-color: #fbaf32;
     margin: 0 2px;
 }
 
-.blog .pagination .page-link:hover,
-.blog .pagination .page-item.active .page-link {
+.metal .pagination .page-link:hover,
+.metal .pagination .page-item.active .page-link {
     color: #ffffff;
     background: #fbaf32;
 }
 
-.blog .pagination .disabled .page-link {
+.metal .pagination .disabled .page-link {
     color: #999999;
 }
 
 @media(max-width: 575.98px){
-    .blog .blog-meta p {
+    .metal .metal-meta p {
         flex: 50%;
         font-size: 13px;
         margin: 0 0 5px 0;
@@ -1851,7 +1850,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
-    color: #fbaf32;
+    color:lightblue;
 }
 
 .footer .footer-contact h2::after,
@@ -1879,7 +1878,7 @@ a:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color: #fbaf32;
+    color:lightblue;
 }
 
 .footer .footer-link a:hover {
@@ -1889,7 +1888,7 @@ a:focus {
 
 .footer .footer-contact p i {
     width: 25px;
-    color: #fbaf32;
+    color:lightblue;
 }
 
 .footer .footer-social {
@@ -1906,7 +1905,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background:lightblue;
     border-radius: 35px;
     font-size: 16px;
     color: #ffffff;
@@ -1928,7 +1927,7 @@ a:focus {
 .footer .footer-newsletter input {
     height: 60px;
     background: transparent;
-    border: 1px solid #fbaf32;
+    border: 1px solid lightblue;
     border-radius: 5px;
 }
 
@@ -1957,9 +1956,199 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #fbaf32;
+    color: lightblue
 }
 
 .footer .copyright p a:hover {
     color: #719a0a;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////// Abhinav  Start Metal product css /////////////// */
+/* .metal{
+    box-sizing: border-box;
+    position: relative;
+}
+.metal {
+    position: relative;
+    width: 100%;
+    padding:0px 0 0 0;
+}
+.metal-container .metal-text-title{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+margin-left: 30px;
+}
+.metal-container .text-alien{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+} */
+
+
+/* ///////////////////////NEW HEADER Abhinav //////////////// */
+ .new-page-header{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 200px 0 90px 0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/metal-page-header.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.container-1{
+    width: 100%;
+    padding-right: auto;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row1{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:15px;
+    margin-left: 15px;
+}
+.new-col-12{
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    flex:0 0 100%;
+    flex-grow: 0;
+    flex-basis: 100%;
+}
+.h-2-metal{
+    text-align: center;
+    color:#117a8b;
+}
+.home{
+    color:#117a8b;
+}
+
+
+                             /* ***************************************************************
+                             **************************Start Floating image *******************
+                             *****************************************************************/
+.metal-container
+{
+    max-width: 1200px;
+    margin: 30px auto 30px;
+}
+.container-container
+{
+    max-width: 1000px;
+    text-align: justify;
+}
+.container-container .image-repository
+{
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+#left
+{
+   float:left;
+   margin-right: 30px;
+   margin-bottom: 10px;
+}
+
+.bottom{
+    margin-bottom: 100px;
+}
+.H{
+    color: #117a8b;
+    font-size: 25px;
+    font-family: Nunito', sans-serif;
+}
+
+#right{
+    max-width: 400px;
+    margin-top:10px;
+    float: left;
+    margin-right:30px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.bottom1
+{
+    max-width:1000px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+                            /* ***************************************************************
+                             **************************End Floating image *******************
+                             *****************************************************************/
+
+/* ///////////////////////End new header ////////////////// */
+
+
+
+
+
+
+
+
+/* ////////////////////////// kushwaha End Metal producr css /////////////// */
+
+
+/* .heavy-container{
+    max-width: 100%;
+    margin-top: 30px auto 20px;
+
+
+}
+
+.heavy-container .floating-image{
+    max-width: 100px;
+    
+}
+
+.floating-image{
+   margin-top: -40px;
+}
+
+.heavy-container .floating-image.left{
+    float:left;
+    margin-right: 35px;
+    margin-bottom: 10px;
+
+}
+
+.heavy-title{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.heavy-text{
+    margin-top: 30px;
+    margin-bottom:145px;
+}
+.light-container .floating-image.left{
+    float:left;
+    margin-right: 35px;
+    margin-bottom: 10px;
+
+}
+.light-title{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.light-container .floating-image{
+    max-width: 400px;
+    margin-top:-0px;
+    vertical-align:middle; */
 }
