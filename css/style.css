@@ -5,7 +5,10 @@ body {
     color: #757575;
     background: #ffffff;
     font-family: 'open sans', sans-serif;
+    overflow-x: hidden;
+
 }
+
 
 h1,
 h2, 
@@ -1195,7 +1198,7 @@ a:focus {
 
 
 /*******************************/
-/*********** Blog CSS **********/
+/*********** Meatal **********/
 /*******************************/
 .metal {
     position: relative;
@@ -1213,84 +1216,6 @@ a:focus {
     border-radius: 15px;
     overflow: hidden;
     z-index: 1;
-}
-
-
-.metal .metal-content {
-    position: relative;
-    width: calc(100% - 60px);
-    top: -60px;
-    left: 30px;
-    padding: 25px 30px 30px 30px;
-    background: #ffffff;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
-    border-radius: 15px;
-    z-index: 2;
-}
-
-.metal .metal-content h2.metal-title {
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.metal .metal-meta {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
-
-.metal.metal-meta p {
-    margin: 0 10px 0 0;
-    font-size: 14px;
-    color: #999999;
-}
-
-.metal .metal-meta i {
-    color: #fbaf32;
-    margin-right: 5px;
-}
-
-.blog .blog-meta p:last-child {
-    margin: 0;
-}
-
-.metal .metal-text {
-    position: relative;
-}
-
-.metal .metal-text p {
-    margin-bottom: 10px;
-}
-
-.metal .metal-item a.btn {
-    margin-top: 10px;
-    padding: 5px 15px;
-}
-
-.metal .pagination .page-link {
-    color: #fbaf32;
-    border-radius: 5px;
-    border-color: #fbaf32;
-    margin: 0 2px;
-}
-
-.metal .pagination .page-link:hover,
-.metal .pagination .page-item.active .page-link {
-    color: #ffffff;
-    background: #fbaf32;
-}
-
-.metal .pagination .disabled .page-link {
-    color: #999999;
-}
-
-@media(max-width: 575.98px){
-    .metal .metal-meta p {
-        flex: 50%;
-        font-size: 13px;
-        margin: 0 0 5px 0;
-    }
 }
 
 
@@ -2034,54 +1959,114 @@ margin-left: 30px;
 
                              /* ***************************************************************
                              **************************Start Floating image *******************
-                             *****************************************************************/
-.metal-container
+                             *****************************************************************/  
+
+.metal-metal
 {
-    max-width: 1200px;
-    margin: 30px auto 30px;
+display: flex;
+min-height: 100vh;
+text-align: justify;
+max-width: 1000px; 
+margin: 30px auto 30px; 
+    
 }
-.container-container
+
+.image-repository 
 {
-    max-width: 1000px;
-    text-align: justify;
-}
-.container-container .image-repository
-{
-    max-width: 400px;
-    margin-top: 10px;
+max-width: 400px;
+margin-right:px;
+
 }
 
 #left
 {
-   float:left;
-   margin-right: 30px;
-   margin-bottom: 10px;
+float:left;
+margin-right: 30px;
+margin-top: ;
+margin-bottom: ;
 }
 
-.bottom{
-    margin-bottom: 100px;
-}
-.H{
-    color: #117a8b;
-    font-size: 25px;
-    font-family: Nunito', sans-serif;
+#right
+{ float:left;
+margin-right:30px ;
+
 }
 
-#right{
-    max-width: 400px;
-    margin-top:10px;
-    float: left;
-    margin-right:30px;
-    margin-bottom: 20px;
-    
-    
-}
-
-.bottom1
+.container-container
 {
-    max-width:1000px;
-    text-align: justify;
+    margin-bottom:100px;  
+
 }
+
+ 
+.metal-metal-1
+{
+    display: flex;
+    min-height: 100vh;
+    text-align: justify;
+    max-width: 1000px;
+    margin: 30px auto 30px; 
+    padding:10px;
+    
+}
+
+#image-width
+{
+    max-width: 400px;
+    
+}
+
+
+#container{
+    width:1000px;
+    margin: auto;
+    background:#f2f2f2;
+    margin-top:-450px;
+    max-height: 100vh;
+
+}                     
+#gallery
+{   margin: auto;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:30px;
+    margin-left: 30px;  */
+    border: 25px solid #f2f2f2;
+    float: left;
+    width:100%px;
+}
+
+  #image{
+    width:100%;
+    height: auto;
+}
+.desc
+{
+    padding: 20px;
+    text-align: center;
+}
+
+#row-1{
+    display: flex;
+    max-width:1000px;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: justify;
+    margin-top: 5px;
+    margin: auto;
+
+}
+#col-md-6{
+    padding-right: -15px;
+    padding-left: -15pxpx;
+    border-right: 0px;
+    border-left: 0px;
+
+}
+
+
+
+
 
 
 
