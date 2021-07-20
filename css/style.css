@@ -1984,14 +1984,12 @@ margin-left: 30px;
 p.line-height{
 line-height:5vh;
 }
-.float-img-2{
-    margin-top: 30px;
-    max-width:40%;
-    margin-bottom: 20px;
-    margin-left:40px; 
-    border-radius: 10px;
-}
-div#float-content-1{
+
+
+
+
+
+div#float-content-2{
     min-width:400px;
     max-width:50%;
     float:right;
@@ -1999,6 +1997,14 @@ div#float-content-1{
     padding: 40px;
 
 }
+.float-img-2{
+    margin-top: 30px;
+    max-width:40%;
+    margin-bottom: 20px;
+    margin-left:40px; 
+    border-radius: 10px;
+}
+
 .float-img-2.left{
     
     margin-left:20px;
@@ -2006,7 +2012,7 @@ div#float-content-1{
     
 }
 
-div#float-content-2{
+div#float-content-3{
     min-width:400px;
     max-width:50%;
     float:right;
