@@ -1967,7 +1967,7 @@ margin-left: 30px;
     max-width:100%;
     text-align:justify;
     margin: 30px ;
-    overflow-x:hidden;
+    
 } 
 .float-img-height{
     height: auto;
@@ -1989,6 +1989,7 @@ line-height:5vh;
     max-width:40%;
     margin-bottom: 20px;
     margin-left:40px; 
+    border-radius: 10px;
 }
 div#float-content-1{
     min-width:400px;
@@ -2019,6 +2020,7 @@ div#float-content-2{
     max-width:40%;
     margin-bottom: 20px;
     margin-left:40px; 
+    border-radius: 10px;
 }
 .float-img-3.left{
     
