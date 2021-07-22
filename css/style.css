@@ -5,12 +5,7 @@ body {
     color: #757575;
     background:#545b62;
     font-family: 'open sans', sans-serif;
-<<<<<<< HEAD
     overflow-x:hidden;
-=======
-
-
->>>>>>> services
 }
 
 
@@ -1978,10 +1973,7 @@ div.container{
     color: #719a0a;
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-<<<<<<< HEAD
+/* ///////////////////////////////////////////////////////////////////////////////////////////////
 
 
                              /* ***************************************************************
@@ -1995,7 +1987,6 @@ div.container{
     text-align: justify;
     max-width: 1000px; 
     margin: 30px auto 30px; 
-=======
 /* ////////////////////////// Abhinav  Start Metal product css /////////////// */
 /* .metal{
     box-sizing: border-box;
@@ -2018,7 +2009,7 @@ margin-left: 30px;
 } */
 
 
-/* ///////////////////////NEW HEADER Abhinav //////////////// */
+/* ///////////////////////NEW HEADER Abhinav ///////////////*/
  .new-page-header{
     position: relative;
     margin-bottom: 15px;
@@ -2151,33 +2142,27 @@ min-height: 100vh;
 text-align: justify;
 max-width: 1000px; 
 margin: 30px auto 30px; 
->>>>>>> services
     
 }
 
 .image-repository 
 {
 max-width: 400px;
-<<<<<<< HEAD
 margin-left:none;
 margin-right: 15px;
-=======
 margin-right:px;
->>>>>>> services
 
 }
 
 #left
 {
 float:left;
-<<<<<<< HEAD
 margin-right: ;
 
 }
 
 #right
 { float:left;
-=======
 margin-right: 30px;
 margin-top: ;
 margin-bottom: ;
@@ -2204,7 +2189,6 @@ margin-right:30px ;
     max-width: 1000px;
     margin: 30px auto 30px; 
     padding:10px;
->>>>>>> services
     
 }
 
@@ -2216,12 +2200,11 @@ margin-right:30px ;
 
 }
 
-<<<<<<< HEAD
 .container-container
 {
     margin-bottom:100px;  
     background: #ffffff;
-=======
+}
 
 #container{
     width:1000px;
