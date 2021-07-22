@@ -403,6 +403,41 @@ div#btn-custom-btn #btn-custom-btn-1
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+ .new-page-header-1{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 200px 0 90px 0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/plastic-page-header.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ .new-page-header-2{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 200px 0 90px 0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/timber-page-header.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ 
+ .new-page-header-3{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 200px 0 90px 0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/grain-page-header.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
 .container-1{
     width: 100%;
     padding-right: auto;
@@ -2033,7 +2068,7 @@ float:left;
 .container-container
 {
     margin-bottom:100px; 
-    background: #ffffff; 
+
 
 }
 
