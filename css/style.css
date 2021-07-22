@@ -3,8 +3,9 @@
 /*******************************/
 body {
     color: #757575;
-    background: #ffffff;
+    background:#545b62;
     font-family: 'open sans', sans-serif;
+    overflow-x:hidden;
 }
 
 h1,
@@ -37,18 +38,44 @@ a:focus {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
-    background: #fbaf32;
-    border: 2px solid #fbaf32;
+    color: hsl(253, 73%, 37%);
+    background:greenyellow;
+    border: 2px solid rgb(21, 22, 21)85, 153, 153)85, 153, 153);
     border-radius: 5px;
-    transition: .5s;
+    transition:.5s;
 }
 
+.btn.custom-btn-1{
+    padding: 12px 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    background:#188a80;
+    border: 2px solid:fff;
+    border-radius: 5px;
+    transition:.5s;
+}
+
+div#btn-custom-btn{
+    display: flex;
+    justify-content:center;
+}
+div#btn-custom-btn #btn-custom-btn-1
+{   margin-top: 70px;
+    scroll-margin-block: 70px;
+
+}
 .btn.custom-btn:hover {
-    color: #fbaf32;
-    background: transparent;
+    color:rgb(47, 179, 255);
+    background:transparent;
 }
+.btn.custom-btn-1:hover {
+    color:rgb(19, 18, 18);
+    background:rgba(0, 128, 0, 0.651);
 
+    
+}
 .btn.custom-btn:focus,
 .form-control:focus,
 .custom-select:focus {
@@ -365,6 +392,50 @@ a:focus {
 /*******************************/
 /******* Page Header CSS *******/
 /*******************************/
+.new-page-header{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 200px 0 90px 0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/metal-page-header.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.container-1{
+    width: 100%;
+    padding-right: auto;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row1{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:15px;
+    margin-left: 15px;
+}
+.new-col-12{
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    flex:0 0 100%;
+    flex-grow: 0;
+    flex-basis: 100%;
+}
+.h-2-metal{
+    text-align: center;
+    color:#117a8b;
+}
+.home{
+    color:#117a8b;
+}
+
+
+
 .page-header {
     position: relative;
     margin-bottom: 15px;
@@ -466,7 +537,7 @@ a:focus {
     }
 }
 
-
+/* 
 /*******************************/
 /********* Booking CSS *********/
 /*******************************/
@@ -1831,15 +1902,20 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: rgba(0, 0, 0, .04);
+    background:#117a8b;
 }
-
+#background-footer{
+    background:#696767;
+}
+div.container{
+    background:white;
+}
 .footer .footer-contact,
 .footer .footer-link,
 .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
-    color: #454545;
+    color: #000000;
 }
 
 .footer .footer-contact h2,
@@ -1850,7 +1926,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
-    color:lightblue;
+    color:rgb(0, 0, 0);
 }
 
 .footer .footer-contact h2::after,
@@ -1868,7 +1944,7 @@ a:focus {
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #454545;
+    color:rgb(34, 29, 29);
     transition: .3s;
 }
 
@@ -1878,17 +1954,17 @@ a:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color:lightblue;
+    color:#00e1ff;
 }
 
 .footer .footer-link a:hover {
-    color: #fbaf32;
+    color:white;
     letter-spacing: 1px;
 }
 
 .footer .footer-contact p i {
     width: 25px;
-    color:lightblue;
+    color:rgb(147, 241, 204);
 }
 
 .footer .footer-social {
@@ -1905,14 +1981,15 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:lightblue;
+    background-color:#a3dfe7;
     border-radius: 35px;
     font-size: 16px;
-    color: #ffffff;
+    color:rgb(128, 119, 119);
 }
 
 .footer .footer-social a:hover {
     background: #719a0a;
+    color: white;
 }
 
 .footer .footer-social a:last-child {
@@ -1923,11 +2000,21 @@ a:focus {
     position: relative;
     width: 100%;
 }
+#submit{
+    color: white;
+    background-color:#188a80;
+    border: 2px solid #117a8b;
 
+}
+#submit:hover{
+    color:black;
+    background-color:transparent;
+
+}
 .footer .footer-newsletter input {
     height: 60px;
     background: transparent;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(230, 212, 173);
     border-radius: 5px;
 }
 
@@ -1963,83 +2050,19 @@ a:focus {
     color: #719a0a;
 }
 
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-/* ////////////////////////// Abhinav  Start Metal product css /////////////// */
-/* .metal{
-    box-sizing: border-box;
-    position: relative;
-}
-.metal {
-    position: relative;
-    width: 100%;
-    padding:0px 0 0 0;
-}
-.metal-container .metal-text-title{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 30px;
-margin-left: 30px;
-}
-.metal-container .text-alien{
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: justify;
-} */
-
-
-/* ///////////////////////NEW HEADER Abhinav //////////////// */
- .new-page-header{
-    position: relative;
-    margin-bottom: 15px;
-    padding: 200px 0 90px 0;
-    text-align:center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/metal-page-header.jpg );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-.container-1{
-    width: 100%;
-    padding-right: auto;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.row1{ 
-    display: flex;
-    flex-wrap: wrap;
-    margin-right:15px;
-    margin-left: 15px;
-}
-.new-col-12{
-    font-size: 25px;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    max-width: 100%;
-    flex:0 0 100%;
-    flex-grow: 0;
-    flex-basis: 100%;
-}
-.h-2-metal{
-    text-align: center;
-    color:#117a8b;
-}
-.home{
-    color:#117a8b;
-}
 
 
                              /* ***************************************************************
                              **************************Start Floating image *******************
                              *****************************************************************/
 
- .metal-metal
-{
-    display: flex;
-    min-height: 100vh;
+ .container
+
+{   flex-wrap:wrap;
+    display:flex;
     text-align: justify;
     max-width: 1000px; 
     margin: 30px auto 30px; 
@@ -2049,82 +2072,57 @@ margin-left: 30px;
 .image-repository 
 {
 max-width: 400px;
-margin-right:px;
+margin-left:none;
+margin-right: 15px;
 
 }
 
 #left
 {
-float:right;
-margin-left: 30px;
-margin-top: ;
-margin-bottom: ;
+float:left;
+margin-right: ;
+
 }
 
 #right
 { float:left;
-  margin-right:30px ;
+    
+    
+  
 
 }
 
 .container-container
 {
     margin-bottom:100px;  
-    background: #f2f2f2;
+    background: #ffffff;
 }
 
 .metal-metal-1
 {
-    display: flex;
-    min-height: 100vh;
+
+    /* min-height: 100vh; */
     text-align: justify;
     max-width:1000px;
-    margin: 30px auto 30px; 
-}
+    margin-bottom: -450px;
 
-#image-width
-{
-    max-width: 400px;
     
+}
+#metal-metal-1
+{
+    margin-left: 50px;
+
+
 }
 .container
 {
     max-width:1000px;
     margin: auto;
-    background: #f2f2f2;
+    background:#ffffff ;
     
-    margin-top: -500px;
+    margin-top:15pxpx;
 
 }
-
-/* } */ 
-/* .metal-container
-{   max-width:900px ;
-    margin:30px ;
-} */
-    
-/* .metal-container
-{   max-width: 900px;
-    margin: 30px auto 30px;
-} */
-/* .container-container
-{
-    max-width: 1200px;
-    text-align: justify;
-
-} */
-/* .container-container .image-repository
-{
-    max-width:400px;
-    margin-top: 10px;
-} */
-/* 
-#left
-{  padding-right:px;
-   float:right;
-   margin-left: 30px;
-   margin-bottom:none;
-} */
 
 
 .H{
@@ -2132,13 +2130,7 @@ margin-bottom: ;
     font-size: 25px;
     font-family: Nunito', sans-serif;
 }
-/* 
-#aluminium
-{
-    color: #454545;
-    font-size: 20px;
-    font-style: normal;
-} */
+
 .a{
     color: #117a8b;
 }
@@ -2147,95 +2139,99 @@ margin-bottom: ;
 {
     color: #117a8b;
     font-size: 34px;
-}
-/* .img-content
-{
-    margin-top:0px;
-} */
-
-/* #right{
-
-    float: left;
-    max-width: 400px;
-    margin-top:0px;
-    margin-right:30px;
-    margin-bottom: 0px;
-    
-    
-} */
-
-/* .bottom1
-{
-    max-width:1200px;
-    text-align: justify;
-} */
-
-
-
-
-
-
-
-                            /* ***************************************************************
-                             **************************End Floating image *******************
-                             *****************************************************************/
-
-/* ///////////////////////End new header ////////////////// */
-
-
-
-
-
-
-
-
-/* ////////////////////////// kushwaha End Metal producr css /////////////// */
-
-
-/* .heavy-container{
-    max-width: 100%;
-    margin-top: 30px auto 20px;
-
-
-}
-
-.heavy-container .floating-image{
-    max-width: 100px;
-    
-}
-
-.floating-image{
-   margin-top: -40px;
-}
-
-.heavy-container .floating-image.left{
-    float:left;
-    margin-right: 35px;
-    margin-bottom: 10px;
-
-}
-
-.heavy-title{
-    font-size: 20px;
-    margin-top: -30px;
-}
-
-.heavy-text{
-    margin-top: 30px;
-    margin-bottom:145px;
-}
-.light-container .floating-image.left{
-    float:left;
-    margin-right: 35px;
-    margin-bottom: 10px;
-
-}
-.light-title{
-    font-size: 20px;
     margin-top: 30px;
 }
-.light-container .floating-image{
-    max-width: 400px;
-    margin-top:-0px;
-    vertical-align:middle; */
+
+#row{
+    margin-top: 30px;
+    max-width: 1000px;
+
+
 }
+
+#metal-text-title{
+    margin-top: 30px;
+}
+
+
+.box{
+    max-width: 1000px;
+    position: relative;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box-1{
+    position: relative;
+    padding: 5px;
+    display: flex;
+    flex-wrap:wrap ;
+
+}
+
+.box-1 .img img{
+    max-width: 400px;
+}
+
+.desc{
+    text-align: center;
+}
+  
+
+/* ////////////////////////////////// */
+        /* Frevious- Next-button */
+
+
+
+#col-12{
+margin-top: 60px;
+}
+
+#page-link{
+    background-color:#188a89;
+    border-color: #545b61;
+}
+#page-link:hover{
+    color: black;
+    background-color:#7ee9bc;
+}
+#page-link-update{
+    color:#212529;
+    background-color: #6c757d;
+    border: 1px solid #545b62;
+    
+}
+
+#page-link-update:hover {
+    color:white;
+    background-color:#188a80;
+}
+
+#page-item-unabled{
+    color: #f8f9fa;
+    background-color: #316a73;
+    border: transparent;
+}
+#page-item-unabled:hover{
+    color: black;
+    background-color: rgb(93, 206, 93);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
