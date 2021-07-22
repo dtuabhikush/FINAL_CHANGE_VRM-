@@ -5,8 +5,14 @@ body {
     color: #757575;
     background:#545b62;
     font-family: 'open sans', sans-serif;
+<<<<<<< HEAD
     overflow-x:hidden;
+=======
+
+
+>>>>>>> services
 }
+
 
 h1,
 h2, 
@@ -1266,7 +1272,7 @@ div#btn-custom-btn #btn-custom-btn-1
 
 
 /*******************************/
-/*********** Blog CSS **********/
+/*********** Meatal **********/
 /*******************************/
 .metal {
     position: relative;
@@ -1284,84 +1290,6 @@ div#btn-custom-btn #btn-custom-btn-1
     border-radius: 15px;
     overflow: hidden;
     z-index: 1;
-}
-
-
-.metal .metal-content {
-    position: relative;
-    width: calc(100% - 60px);
-    top: -60px;
-    left: 30px;
-    padding: 25px 30px 30px 30px;
-    background: #ffffff;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
-    border-radius: 15px;
-    z-index: 2;
-}
-
-.metal .metal-content h2.metal-title {
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.metal .metal-meta {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
-
-.metal.metal-meta p {
-    margin: 0 10px 0 0;
-    font-size: 14px;
-    color: #999999;
-}
-
-.metal .metal-meta i {
-    color: #fbaf32;
-    margin-right: 5px;
-}
-
-.blog .blog-meta p:last-child {
-    margin: 0;
-}
-
-.metal .metal-text {
-    position: relative;
-}
-
-.metal .metal-text p {
-    margin-bottom: 10px;
-}
-
-.metal .metal-item a.btn {
-    margin-top: 10px;
-    padding: 5px 15px;
-}
-
-.metal .pagination .page-link {
-    color: #fbaf32;
-    border-radius: 5px;
-    border-color: #fbaf32;
-    margin: 0 2px;
-}
-
-.metal .pagination .page-link:hover,
-.metal .pagination .page-item.active .page-link {
-    color: #ffffff;
-    background: #fbaf32;
-}
-
-.metal .pagination .disabled .page-link {
-    color: #999999;
-}
-
-@media(max-width: 575.98px){
-    .metal .metal-meta p {
-        flex: 50%;
-        font-size: 13px;
-        margin: 0 0 5px 0;
-    }
 }
 
 
@@ -2053,6 +1981,7 @@ div.container{
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+<<<<<<< HEAD
 
 
                              /* ***************************************************************
@@ -2066,37 +1995,285 @@ div.container{
     text-align: justify;
     max-width: 1000px; 
     margin: 30px auto 30px; 
+=======
+/* ////////////////////////// Abhinav  Start Metal product css /////////////// */
+/* .metal{
+    box-sizing: border-box;
+    position: relative;
+}
+.metal {
+    position: relative;
+    width: 100%;
+    padding:0px 0 0 0;
+}
+.metal-container .metal-text-title{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+margin-left: 30px;
+}
+.metal-container .text-alien{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+} */
+
+
+/* ///////////////////////NEW HEADER Abhinav //////////////// */
+ .new-page-header{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 200px 0 90px 0;
+    text-align:center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/metal-page-header.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.container-1{
+    width: 100%;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row1{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:15px;
+    margin-left: 15px;
+}
+.new-col-12{
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    flex:0 0 100%;
+    flex-grow: 0;
+    flex-basis: 100%;
+}
+.h-2-metal{
+    text-align: center;
+    color:#117a8b;
+}
+.home{
+    color:#117a8b;
+}
+
+
+/* ******************************************************************************************************************
+///////////////////////////////////////////////////Start Floating image////////////////////////////////////////////
+******************************************************************************************************************** */
+
+
+.metal-main{
+    position: relative;
+    max-width:100%;
+    text-align:justify;
+    margin: 30px ;
+    
+} 
+.float-img-height{
+    height: auto;
+}
+.title-high-light{
+    color: #117a8b;
+}
+.letter-high-light
+{
+    color: #117a8b;
+    font-size: 25px;
+    
+}
+p.line-height{
+line-height:5vh;
+}
+
+
+
+
+
+div#float-content-2{
+    min-width:400px;
+    max-width:50%;
+    float:right;
+    margin-right:18px;
+    padding: 40px;
+
+}
+.float-img-2{
+    margin-top: 30px;
+    max-width:40%;
+    margin-bottom: 20px;
+    margin-left:40px; 
+    border-radius: 10px;
+}
+
+.float-img-2.left{
+    
+    margin-left:20px;
+    min-width: 400px;
+    
+}
+
+div#float-content-3{
+    min-width:400px;
+    max-width:50%;
+    float:right;
+    margin-right:18px;
+    padding: 40px;
+}
+
+
+.float-img-3{
+    margin-top: 30px;
+    max-width:40%;
+    margin-bottom: 20px;
+    margin-left:40px; 
+    border-radius: 10px;
+}
+.float-img-3.left{
+    
+    margin-left:20px;
+    min-width: 400px;
+    
+}
+
+
+
+
+
+.metal-metal
+{
+display: flex;
+min-height: 100vh;
+text-align: justify;
+max-width: 1000px; 
+margin: 30px auto 30px; 
+>>>>>>> services
     
 }
 
 .image-repository 
 {
 max-width: 400px;
+<<<<<<< HEAD
 margin-left:none;
 margin-right: 15px;
+=======
+margin-right:px;
+>>>>>>> services
 
 }
 
 #left
 {
 float:left;
+<<<<<<< HEAD
 margin-right: ;
 
 }
 
 #right
 { float:left;
-    
-    
-  
+=======
+margin-right: 30px;
+margin-top: ;
+margin-bottom: ;
+}
+
+#right
+{ float:left;
+margin-right:30px ;
 
 }
 
 .container-container
 {
     margin-bottom:100px;  
-    background: #ffffff;
+
 }
+
+ 
+.metal-metal-1
+{
+    display: flex;
+    min-height: 100vh;
+    text-align: justify;
+    max-width: 1000px;
+    margin: 30px auto 30px; 
+    padding:10px;
+>>>>>>> services
+    
+}
+
+#image-width
+{
+    max-width: 400px;
+    
+  
+
+}
+
+<<<<<<< HEAD
+.container-container
+{
+    margin-bottom:100px;  
+    background: #ffffff;
+=======
+
+#container{
+    width:1000px;
+    margin: auto;
+    background:#f2f2f2;
+    margin-top:-450px;
+    max-height: 100vh;
+
+}                     
+#gallery
+{   margin: auto;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:30px;
+    margin-left: 30px;  */
+    /* border: 25px solid #f2f2f2;
+    float: left;
+    width:100%px;
+} */
+/* 
+  #image{
+    width:100%;
+    height: auto;
+}
+.desc
+{
+    padding: 20px;
+    text-align: center;
+}
+
+#row-1{
+    display: flex;
+    max-width:1000px;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: justify;
+    margin-top: 5px;
+    margin: auto;
+
+>>>>>>> services
+}
+#col-md-6{
+    padding-right: -15px;
+    padding-left: -15pxpx;
+    border-right: 0px;
+    border-left: 0px;
+
+} */ 
+
+
+
+
 
 .metal-metal-1
 {
