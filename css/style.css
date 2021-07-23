@@ -110,7 +110,7 @@ a:focus {
 .navbar .navbar-brand {
     margin: 0;
     color: #fbaf32;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 0px;
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
@@ -253,7 +253,7 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
 
@@ -370,7 +370,7 @@ a:focus {
     margin-bottom: 15px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
