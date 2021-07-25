@@ -39,9 +39,10 @@ a:focus {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: hsl(253, 73%, 37%);
-    background:greenyellow;
-    border: 2px solid rgb(21, 22, 21)85, 153, 153)85, 153, 153);
+    color:#ffffff;
+    border-color:#117a8b ;
+    background:#117a8b;
+    border: 2px solid #117a8b;
     border-radius: 5px;
     transition:.5s;
 }
@@ -52,7 +53,7 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     color:white;
-    background:#188a80;
+    background:#117a8b;
     border: 2px solid:fff;
     border-radius: 5px;
     transition:.5s;
@@ -68,7 +69,7 @@ div#btn-custom-btn #btn-custom-btn-1
 
 }
 .btn.custom-btn:hover {
-    color:rgb(47, 179, 255);
+    color:#117a8b;
     background:transparent;
 }
 .btn.custom-btn-1:hover {
@@ -90,7 +91,7 @@ div#btn-custom-btn #btn-custom-btn-1
 .back-to-top {
     position: fixed;
     display: none;
-    background: #fbaf32;
+    background:#117a8b;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -132,13 +133,13 @@ div#btn-custom-btn #btn-custom-btn-1
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #fbaf32;
-    font-size: 45px;
+    color: #117a8b;
+    font-size:30px;
     line-height: 0px;
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
@@ -151,11 +152,11 @@ div#btn-custom-btn #btn-custom-btn-1
 }
 
 .navbar .navbar-brand:hover {
-    color: #fbaf32;
+    color: #117a8b;
 }
 
 .navbar .navbar-brand:hover span {
-    color: #fbaf32;
+    color: #ffffff;
 }
 
 .navbar .navbar-brand img {
@@ -165,9 +166,9 @@ div#btn-custom-btn #btn-custom-btn-1
 
 .navbar .dropdown-menu {
     margin-top: 0;
-    border: 0;
-    border: radius 2px;
-    background:#f8f9fa;
+    border:0.5px;
+    border: radius 5px;
+    background:#117a8b;
 }
 
 @media (min-width: 992px) {
@@ -181,16 +182,16 @@ div#btn-custom-btn #btn-custom-btn-1
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #ffffff !important;
+        background:#117a8b !important;
     }
     
     .navbar .navbar-brand {
-        color: #fbaf32;
+        color:#ffffff;
     }
-    
-    .navbar.nav-sticky .navbar-brand {
-        color: #fbaf32;
-    }
+     
+     .navbar.nav-sticky .navbar-brand {
+        color: #544c45;
+    } 
 
     .navbar-light .navbar-nav .nav-link,
     .navbar-light .navbar-nav .nav-link:focus {
@@ -203,28 +204,27 @@ div#btn-custom-btn #btn-custom-btn-1
     
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-        color: #666666;
+        color: #000000;
     }
-
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #fbaf32;
+        color: #218696;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #fbaf32;
+        color:#ffffff;
     }
 }
 
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: #218696 !important;
     }
     
     .navbar .navbar-brand {
-        color: #fbaf32;
+        color:#ffffff;
     }
     
     .navbar .navbar-nav {
@@ -232,6 +232,7 @@ div#btn-custom-btn #btn-custom-btn-1
     }
     
     .navbar a.nav-link {
+        color: #ffffff;
         padding: 5px;
     }
     
@@ -240,7 +241,7 @@ div#btn-custom-btn #btn-custom-btn-1
     }
 }
 
-
+}
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
@@ -305,13 +306,13 @@ div#btn-custom-btn #btn-custom-btn-1
 .carousel .carousel-text h1 {
     text-align: center;
     color: #ffffff;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
 .carousel .carousel-text h1 span {
-    color: #fbaf32;
+    color:#117a8b;
 }
 
 .carousel .carousel-text p {
@@ -345,7 +346,7 @@ div#btn-custom-btn #btn-custom-btn-1
     }
     
     .carousel .carousel-text h1 {
-        font-size: 35px;
+        font-size:35px;
     }
     
     .carousel .carousel-text p {
@@ -420,7 +421,7 @@ div#btn-custom-btn #btn-custom-btn-1
     margin-bottom: 15px;
     padding: 200px 0 90px 0;
     text-align:center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/timber-page-header.jpg );
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/image-14.jpg );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -432,7 +433,7 @@ div#btn-custom-btn #btn-custom-btn-1
     margin-bottom: 15px;
     padding: 200px 0 90px 0;
     text-align:center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/grain-page-header.jpg );
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/image-17.jpg );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1780,12 +1781,12 @@ div#btn-custom-btn #btn-custom-btn-1
 
 .contact .contact-icon {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background: #117a8b;
     border-radius: 50px;
 }
 
@@ -1817,7 +1818,7 @@ div#btn-custom-btn #btn-custom-btn-1
 .contact .contact-social a {
     margin-right: 10px;
     font-size: 18px;
-    color: #fbaf32;
+    color: #86c3cf;
 }
 
 .contact .contact-social a:hover {
@@ -2005,7 +2006,7 @@ div.container{
 }
 
 .footer .copyright p a {
-    color: lightblue
+    color:#117a8b;
 }
 
 .footer .copyright p a:hover {
