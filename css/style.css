@@ -1,14 +1,19 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+html{
+    scroll-behavior: smooth;
+}
 body {
     color: #757575;
     background:rgb(243, 240, 240);
     font-family: 'open sans', sans-serif;
-    overflow-x:hidden;
+
    
 }
-
+::-webkit-scrollbar{
+   display: none; 
+}
 
 h1,
 h2, 
